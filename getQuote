@@ -1,7 +1,13 @@
+#!/bin/bash
+
+cd /home/larsen_online/faust-bot/ 
+pwd > test
 LINES=`cat quelle.txt | wc -l`
+echo "$LINES" >> test
 random_number=$((RANDOM % $LINES))
 
 random_number=$((random_number + 1))
 sed -n "${random_number}p" "quelle.txt" | sed 's|\/|\n|g' > quotes.txt
 #cat quotes.txt |wc -c
-node index.js
+cat quotes.txt >> test
+/home/larsen_online/.nvm/versions/node/v18.20.2/bin/node index.js
