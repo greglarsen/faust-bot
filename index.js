@@ -1,10 +1,13 @@
+const config = require('./config');
+const password = config.password;
+
 const { BskyAgent } = require("@atproto/api");
 
 async function sendPost(text) {
   const agent = new BskyAgent({ service: "https://bsky.social" });
   await agent.login({
     identifier: "fbtest.bsky.social",
-    password: "xbwc-cz3o-mlyu-egks",
+    password: password,
   });
 await agent.post({ text });
 }
