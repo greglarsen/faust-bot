@@ -167,7 +167,7 @@ Sitzt ihr nur immer!  leimt zusammen,/Braut ein Ragout von andrer Schmaus/Und bl
 Bewundrung von Kindern und Affen,/Wenn euch darnach der Gaumen steht-/Doch werdet ihr nie Herz zu Herzen schaffen,/Wenn es euch nicht von Herzen geht.
 Allein der Vortrag macht des Redners Glück;/Ich fühl es wohl, noch bin ich weit zurück.
 Such Er den redlichen Gewinn!/Sei Er kein schellenlauter Tor!/Es trägt Verstand und rechter Sinn/Mit wenig Kunst sich selber vor!
-Und wenn's euch Ernst ist, was zu sagen,/Ist's nötig, Worten nachzujagen?/Ja, eure Reden, die so blinkend sind,/In denen ihr der Menschheit Schnitzel kräuselt,/Sind unerquicklich wie der Nebelwind,/Der herbstlich durch die dürren Blätter säuselt!/
+Und wenn's euch Ernst ist, was zu sagen,/Ist's nötig, Worten nachzujagen?/Ja, eure Reden, die so blinkend sind,/In denen ihr der Menschheit Schnitzel kräuselt,/Sind unerquicklich wie der Nebelwind,/Der herbstlich durch die dürren Blätter säuselt!
 Ach Gott!  die Kunst ist lang;/Und kurz ist unser Leben.
 Mir wird, bei meinem kritischen Bestreben,/Doch oft um Kopf und Busen bang./Wie schwer sind nicht die Mittel zu erwerben,/Durch die man zu den Quellen steigt!/Und eh man nur den halben Weg erreicht,/Muß wohl ein armer Teufel sterben.
 Das Pergament, ist das der heil'ge Bronnen,/Woraus ein Trunk den Durst auf ewig stillt?/Erquickung hast du nicht gewonnen,/Wenn sie dir nicht aus eigner Seele quillt.
@@ -274,7 +274,7 @@ Auch damals Ihr, ein junger Mann,/Ihr gingt in jedes Krankenhaus,/Gar manche Lei
 Gesundheit dem bewährten Mann,/Daß er noch lange helfen kann!
 Vor jenem droben steht gebückt,/Der helfen lehrt und Hülfe schickt.
 Welch ein Gefühl mußt du, o großer Mann,/Bei der Verehrung dieser Menge haben!/O glücklich, wer von seinen Gaben/Solch einen Vorteil ziehen kann!
-Der Vater zeigt dich seinem Knaben,/Ein jeder fragt und drängt und eilt,/Die Fiedel stockt, der Tänzer weilt./Du gehst, in Reihen stehen sie,/Die Mützen fliegen in die Höh;/Und wenig fehlt, so beugten sich die Knie,/Als käm das Venerabile./
+Der Vater zeigt dich seinem Knaben,/Ein jeder fragt und drängt und eilt,/Die Fiedel stockt, der Tänzer weilt./Du gehst, in Reihen stehen sie,/Die Mützen fliegen in die Höh;/Und wenig fehlt, so beugten sich die Knie,/Als käm das Venerabile.
 Nur wenig Schritte noch hinauf zu jenem Stein,/Hier wollen wir von unsrer Wandrung rasten.
 Hier saß ich oft gedankenvoll allein/Und quälte mich mit Beten und mit Fasten.
 An Hoffnung reich, im Glauben fest,/Mit Tränen, Seufzen, Händeringen/Dacht ich das Ende jener Pest/Vom Herrn des Himmels zu erzwingen.
@@ -1063,16 +1063,13 @@ Und seiner Rede/Zauberfluß,/Sein Händedruck,/Und ach!  sein Kuß!
 Meine Ruh ist hin,/Mein Herz ist schwer,/Ich finde sie nimmer/und nimmermehr.
 Mein Busen drängt/Sich nach ihm hin,/Ach dürft ich fassen/Und halten ihn,
 Und küssen ihn,/So wie ich wollt,/An seinen Küssen/Vergehen sollt!
-Ma: Versprich mir, Heinrich!
-F: Was ich kann!/
+Ma: Versprich mir, Heinrich!/F: Was ich kann!/
 Nun sag, wie hast du's mit der Religion?/Du bist ein herzlich guter Mann,/Allein ich glaub, du hältst nicht viel davon.
 Laß das, mein Kind!  Du fühlst, ich bin dir gut;/Für meine Lieben ließ' ich Leib und Blut,/Will niemand sein Gefühl und seine Kirche rauben.
-Ma: Das ist nicht recht, man muß dran glauben./
+Ma: Das ist nicht recht, man muß dran glauben.
 F:  Muß man?/Ma: Ach!  wenn ich etwas auf dich konnte!/    Du ehrst auch nicht die heil'gen/    Sakramente./F:  Ich ehre sie./Ma: Doch ohne Verlangen./    Zur Messe, zur Beichte bist du lange nicht gegangen.
 M: Glaubst du an Gott?/F: Mein Liebchen, wer darf sagen: Ich glaub an Gott?/   Magst Priester oder Weise fragen,/   Und ihre Antwort scheint nur Spott/   Über den Frager zu sein.
-M: So glaubst du nicht?
-F: Mißhör mich nicht, du holdes Angesicht!
-Wer darf ihn nennen?/Und wer bekennen:/"Ich glaub ihn!"?
+M: So glaubst du nicht?/F: Mißhör mich nicht, du holdes Angesicht!/Wer darf ihn nennen?/Und wer bekennen:/"Ich glaub ihn!"?
 Wer empfinden,/Und sich unterwinden/Zu sagen: "Ich glaub ihn nicht!"?
 Der Allumfasser,/Der Allerhalter,/Faßt und erhält er nicht/Dich, mich, sich selbst?
 Wölbt sich der Himmel nicht da droben?/Liegt die Erde nicht hier unten fest?/Und steigen freundlich blickend/Ewige Sterne nicht herauf?
@@ -1083,7 +1080,7 @@ Es sagen's allerorten/Alle Herzen unter dem himmlischen Tage,/Jedes in seiner Sp
 Wenn man's so hört, möcht's leidlich scheinen,/Steht aber doch immer schief darum;/Denn du hast kein Christentum.
 Liebs Kind!
 Es tut mir lange schon weh, Daß ich dich in der Gesellschaft seh.
-Wieso?/
+Wieso?
 Der Mensch, den du da bei dir hast,/Ist mir in tiefer innrer Seele verhaßt;/Es hat mir in meinem Leben/So nichts einen Stich ins Herz gegeben/Als des Menschen widrig Gesicht.
 Liebe Puppe, fürcht ihn nicht!
 Seine Gegenwart bewegt mir das Blut./Ich bin sonst allen Menschen gut;/Aber wie ich mich sehne, dich zu schauen,/Hab ich vor dem Menschen ein heimlich Grauen,/Und halt ihn für einen Schelm dazu!/Gott verzeih mir's, wenn ich ihm unrecht tu!
@@ -1164,8 +1161,7 @@ Wen lockst du hier?  beim Element!/Vermaledeiter Rattenfänger!/Zum Teufel erst 
 Die Zither ist entzwei!  an der ist nichts zu halten.
 Nun soll es an ein Schädelspalten!/
 Herr Doktor, nicht gewichen!  Frisch!/Hart an mich an, wie ich Euch führe./Heraus mit Eurem Flederwisch!
-M: Nur zugestoßen!  ich pariere.
-V: Pariere den!/M: Warum denn nicht?/V: Auch den!/M: Gewiß!/V: Ich glaub, der Teufel ficht!/   Was ist denn das?/   Schon wird die Hand mir lahm./M: Stoß zu!/V: O weh!/
+M: Nur zugestoßen!  ich pariere./V: Pariere den!/M: Warum denn nicht?/V: Auch den!/M: Gewiß!/V: Ich glaub, der Teufel ficht!/   Was ist denn das?/   Schon wird die Hand mir lahm./M: Stoß zu!/V: O weh!/
 Nun ist der Lümmel zahm!  Nun aber fort!  Wir müssen gleich verschwinden/Denn schon entsteht ein mörderlich Geschrei./Ich weiß mich trefflich mit der Polizei,/Doch mit dem Blutbann schlecht mich abzufinden.
 MARTHE:/Heraus!  Heraus!/ /GRETCHEN:/Herbei ein Licht!/ /MARTHE:/Man schilt und rauft, man schreit und ficht./ /VOLK:/Da liegt schon einer tot!/ /MARTHE:/Die Mörder, sind sie denn entflohn?/ /GRETCHEN:/Wer liegt hier?/ /VOLK:/Deiner Mutter Sohn./ /GRETCHEN:/Allmächtiger!  welche Not!
 Ich sterbe!  das ist bald gesagt/Und balder noch getan.
@@ -1396,8 +1392,7 @@ Sie ahnet nicht, daß der Geliebte lauscht,/Die Ketten klirren hört, das Stroh,
 Weh!  Weh!  Sie kommen.  Bittrer Tod!
 Still!  Still!  ich komme, dich zu befreien.
 Bist du ein Mensch, so fühle meine Not.
-Du wirst die Wächter aus dem Schlafe schreien!
-/Wer hat dir Henker diese Macht/Über mich gegeben!/Du holst mich schon um Mitternacht./Erbarme dich und laß mich leben!
+Du wirst die Wächter aus dem Schlafe schreien!/Wer hat dir Henker diese Macht/Über mich gegeben!/Du holst mich schon um Mitternacht./Erbarme dich und laß mich leben!
 Ist's morgen früh nicht zeitig genung?/Bin ich doch noch so jung, so jung!/Und soll schon sterben!
 Schön war ich auch, und das war mein Verderben./Nah war der Freund, nun ist er weit;/Zerrissen liegt der Kranz, die Blumen zerstreut.
 Fasse mich nicht so gewaltsam an!/Schone mich!  Was hab ich dir getan?/Laß mich nicht vergebens flehen,/Hab ich dich doch mein Tage nicht gesehen!
