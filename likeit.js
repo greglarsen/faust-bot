@@ -11,7 +11,7 @@ const { BskyAgent } = require("@atproto/api");
 async function sendPost() {
   const agent = new BskyAgent({ service: "https://bsky.social" });
   await agent.login({
-    identifier: "dr-seuss-bot.bsky.social",
+    identifier: "faust-bot.bsky.social",
     password: password,
   });
 
