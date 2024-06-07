@@ -5,6 +5,8 @@ TOKEN='eyJhbGciOiJFUzI1NksifQ.eyJzY29wZSI6ImNvbS5hdHByb3RvLmFjY2VzcyIsInN1YiI6Im
 
 DATE=`date -d "1 day ago" '+%Y-%m-%d'`
 
+#echo $DATE
+
 SEARCHSTRINGS="Zwei Seelen wohnen, ach! in meiner Brust.
 Das also war des Pudels Kern
 Verweile doch, du bist so schön
@@ -20,6 +22,8 @@ Hier steh' ich nun, ich armer Tor
 Vom Eise befreit sind Strom und Bäche durch des Frühlings holden, belebenden Blick.
 Ich wünschte mir den allerderbsten Bock.
 Es war ein König in Thule
+Fühlt man erst recht des Basses Grundgewalt
+Es irrt der Mensch, solang er strebt
 "
 
 printf %s "$SEARCHSTRINGS" | 
@@ -31,24 +35,34 @@ STRING=`echo $line | sed 's| |%20|g'`
 
 
 
-POSTS=`curl -L -X GET "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=\"${STRING}\"&since=${DATE}T23:59:59.123Z" -H 'Accept: application/json' -H 'Authorization: Bearer $TOKEN' | tr '{' '\n' | grep author | grep -v type |grep -v alt | awk -F [\"] '{ print $4,$8 }'`
+POSTS=`curl -L -X GET "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=\"${STRING}\"&since=${DATE}T23:59:59.123Z" -H 'Accept: application/json' -H 'Authorization: Bearer $TOKEN' | sed "s|uri|\n|g" \
+| grep handle | awk -F [\"] '{print   $3 " "  $7 " "   $17 }'`
 
-#curl -L -X GET "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=\"${STRING}\"&since=${DATE}T23:59:59.123Z" -H 'Accept: application/json' -H 'Authorization: Bearer $TOKEN' | tr '{' '\n' | grep author | grep -v type |grep -v alt | awk -F [\"] '{ print $4,$8 }'
+#curl -L -X GET "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=\"${STRING}\"&since=${DATE}T23:59:59.123Z" -H 'Accept: application/json' -H 'Authorization: Bearer $TOKEN' | sed "s|uri|\n|g" \
+#| grep handle | awk -F [\"] '{print   $3 " "  $7 " "   $17 }'
+
+
 
 
 if [[ "$POSTS" != "" ]]; then
 
-
-
 printf %s "$POSTS
 " | 
 while IFS= read -r perams; do
+
+THISPOSTER=`echo $perams |awk '{ print $3}'`
+
+if [[ `echo $ALLPOSTERS | grep $THISPOSTER` == "" ]]; then
+ALLPOSTERS=$ALLPOSTERS$THISPOSTER
+
 
 URI=`echo $perams |awk '{ print $1}'`
 CID=`echo $perams |awk '{ print $2}'`
 
 
 #echo "$URI $CID"
+#echo $THISPOSTER
+#echo $ALLPOSTER
 #echo "$line"
 
 echo " 
@@ -60,7 +74,9 @@ module.exports = {
 
 
 /home/larsen_online/.nvm/versions/node/v18.20.2/bin/node ./likeit.js
-
+else
+echo "SKIPPING $THISPOSTER"
+fi
 done
 
 fi
