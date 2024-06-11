@@ -7,20 +7,20 @@ DATE=`date -d "today" '+%Y-%m-%d'`
 
 #echo $DATE
 
-SEARCHSTRINGS="Zwei Seelen wohnen, ach! in meiner Brust.
+SEARCHSTRINGS="Zwei Seelen wohnen, ach! in meiner Brust
 Das also war des Pudels Kern
 Verweile doch, du bist so schön
-Grau ist alle Theorie, und grün des Lebens goldner Baum.
+Grau ist alle Theorie, und grün des Lebens goldner Baum
 Im Anfang war die Tat.
-Wer immer strebend sich bemüht, den können wir erlösen.
-Das Ewig-Weibliche zieht uns hinan.
-Des Lebens Pulse schlagen früh und spät.
-Die Botschaft hör' ich wohl, allein mir fehlt der Glaube.
-Ein Teil von jener Kraft, die stets das Böse will und stets das Gute schafft.
+Wer immer strebend sich bemüht, den können wir erlösen
+Das Ewig-Weibliche zieht uns hinan
+Des Lebens Pulse schlagen früh und spät
+Die Botschaft hör' ich wohl, allein mir fehlt der Glaube
+Ein Teil von jener Kraft, die stets das Böse will und stets das Gute schafft
 Ich bin der Geist, der stets verneint
 Hier steh' ich nun, ich armer Tor
-Vom Eise befreit sind Strom und Bäche durch des Frühlings holden, belebenden Blick.
-Ich wünschte mir den allerderbsten Bock.
+Vom Eise befreit sind Strom und Bäche durch des Frühlings holden, belebenden Blick
+Ich wünschte mir den allerderbsten Bock
 Es war ein König in Thule
 Fühlt man erst recht des Basses Grundgewalt
 Es irrt der Mensch, solang er strebt
@@ -72,10 +72,10 @@ module.exports = {
   myuri: '$URI',
   mycid: '$CID'
 };
-" > uri-cid
+" > /home/larsen_online/faust-bot/uri-cid
 
 
-/home/larsen_online/.nvm/versions/node/v18.20.2/bin/node ./likeit.js
+/home/larsen_online/.nvm/versions/node/v18.20.2/bin/node /home/larsen_online/faust-bot/likeit.js
 else
 echo "SKIPPING $THISPOSTER"
 fi
