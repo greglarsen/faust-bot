@@ -18,12 +18,17 @@ Des Lebens Pulse schlagen früh und spät
 Die Botschaft hör' ich wohl, allein mir fehlt der Glaube
 Ein Teil von jener Kraft, die stets das Böse will und stets das Gute schafft
 Ich bin der Geist, der stets verneint
-Hier steh' ich nun, ich armer Tor
+steh' ich nun, ich armer Tor
 Vom Eise befreit sind Strom und Bäche durch des Frühlings holden, belebenden Blick
 Ich wünschte mir den allerderbsten Bock
 Es war ein König in Thule
 Fühlt man erst recht des Basses Grundgewalt
 Es irrt der Mensch, solang er strebt
+Der Worte sind genug gewechselt, lasst mich auch endlich Taten sehn
+Hier bin ich Mensch, hier darf ich’s sein
+Nach Golde drängt, am Golde hängt doch alles
+Zwar weiß ich viel, doch möcht ich alles wissen
+Heinrich! Mir graut’s vor dir.
 "
 
 printf %s "$SEARCHSTRINGS" | 
