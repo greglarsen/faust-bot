@@ -29,6 +29,7 @@ Hier bin ich Mensch, hier darf ich’s sein
 Nach Golde drängt, am Golde hängt doch alles
 Zwar weiß ich viel, doch möcht ich alles wissen
 Heinrich! Mir graut’s vor dir.
+Mein schönes Fräulein, darf ich wagen, Meinen Arm und Geleit Ihr anzutragen
 "
 
 printf %s "$SEARCHSTRINGS" | 
