@@ -12,3 +12,5 @@ sed -n 1p quelle_random.txt  | sed 's|\/|\n|g'  > quotes.txt
 
 cat quotes.txt > test
 sed -i '1d' quelle_random.txt
+
+/home/larsen_online/.nvm/versions/node/v18.20.2/bin/node index.js
