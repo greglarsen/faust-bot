@@ -68,10 +68,10 @@ URI=`echo $perams |awk '{ print $1}'`
 CID=`echo $perams |awk '{ print $2}'`
 
 
-#echo "$URI $CID"
-#echo $THISPOSTER
-#echo $ALLPOSTER
-#echo "$line"
+echo "$URI $CID"
+echo $THISPOSTER
+echo $ALLPOSTER
+echo "$line"
 
 echo " 
 module.exports = {

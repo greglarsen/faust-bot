@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /home/larsen_online/faust-bot/
+
 if [ ! -s quelle_random.txt ]; then
 
 cat quelle.txt | shuf > quelle_random.txt
