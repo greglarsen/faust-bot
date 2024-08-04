@@ -1,13 +1,14 @@
 #!/bin/bash
 
-cd /home/larsen_online/faust-bot/ 
-pwd > test
-LINES=`cat quelle.txt | wc -l`
-echo "$LINES" >> test
-random_number=$((RANDOM % $LINES))
+if [ ! -s quelle_random.txt ]; then
 
-random_number=$((random_number + 1))
-sed -n "${random_number}p" "quelle.txt" | sed 's|\/|\n|g' > quotes.txt
-#cat quotes.txt |wc -c
-cat quotes.txt >> test
-/home/larsen_online/.nvm/versions/node/v18.20.2/bin/node index.js
+cat quelle.txt | shuf > quelle_random.txt
+
+fi
+
+sed -n 1p quelle_random.txt  | sed 's|\/|\n|g'  > quotes.txt
+
+
+
+cat quotes.txt > test
+sed -i '1d' quelle_random.txt
