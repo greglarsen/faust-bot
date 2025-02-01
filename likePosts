@@ -1,7 +1,16 @@
 #!/bin/bash
 
+PASSWORD=`cat ./config2`
+#echo $PASSWORD
 
-TOKEN='eyJhbGciOiJFUzI1NksifQ.eyJzY29wZSI6ImNvbS5hdHByb3RvLmFjY2VzcyIsInN1YiI6ImRpZDpwbGM6MmxiNWtpZ3Y3b3loY3VjeXc2d3BveW9kIiwiaWF0IjoxNzE3NDg3MjcwLCJleHAiOjE3MTc0OTQ0NzAsImF1ZCI6ImRpZDp3ZWI6dmVycGEudXMtd2VzdC5ob3N0LmJza3kubmV0d29yayJ9.k9CW0EQV5XvKf9ZZGKPrXIA66oF6hPKCG80nLzrvn5O-lxQ-B2vBaix9r7ZdcN4L0xRVHTerbglp9wxI5QZOqg'
+TOKEN=`curl -X POST https://bsky.social/xrpc/com.atproto.server.createSession -H "Content-Type: application/json" -d '{
+  "identifier": "faust-bot.bsky.social",
+  "password": "'"$PASSWORD"'"
+}' | sed 's|.*accessJwt":"||g' | sed 's|".*||g'`
+
+#echo $TOKEN
+
+
 
 DATE=`date -d "today" '+%Y-%m-%d'`
 
