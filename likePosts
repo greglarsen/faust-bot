@@ -45,6 +45,7 @@ Mein schönes Fräulein, darf ich wagen, Meinen Arm und Geleit Ihr anzutragen
 printf %s "$SEARCHSTRINGS" | 
 while IFS= read -r line; do
 
+line=`echo "\"$line\""`	
 
 POSTS=$( curl -s -G "https://faust-bot.bsky.social/xrpc/app.bsky.feed.searchposts" \
     --data-urlencode "q=${line}" \
