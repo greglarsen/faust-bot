@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd /home/larsen_online/faust-bot
 PASSWORD=`cat ./config2`
 #echo $PASSWORD
 
